@@ -3,7 +3,7 @@
         <div class="d-flex justify-content-between align-items-center">
             <img src="{{ Vite::asset('resources/img/dc-logo.png') }}" alt="Logo">
             <nav>
-                <ul>
+                <ul class="pt-3">
                     <li><a href="">Characters</a></li>
                     <li><a href="">Comics</a></li>
                     <li><a href="">Movies</a></li>
