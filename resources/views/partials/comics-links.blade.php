@@ -1,26 +1,12 @@
 <footer>
     <div class=" top-footer container">
         <ul class="d-flex justify-content-between align-items-center">
+            @foreach ($icons as $item )
             <li>
-                <img src="{{Vite::asset('resources/img/buy-comics-digital-comics.png')}}" alt="digital-comics">
-                <a href="/">DIGITAL COMICS</a>
+                <img src="{{Vite::asset($item['img'])}}" alt="{{$item['text']}}">
+                <a href="/">{{$item['text']}}</a>
             </li>
-            <li>
-                <img src="{{Vite::asset('resources/img/buy-comics-merchandise.png')}}" alt="merchandise">
-                <a href="/">DC MERCHANDISE</a>
-            </li>
-            <li>
-                <img src="{{Vite::asset('resources/img/buy-comics-subscriptions.png')}}" alt="merchandise">
-                <a href="/">SUBSCRIPTION</a>
-            </li>
-            <li>
-                <img src="{{Vite::asset('resources/img/buy-comics-shop-locator.png')}}" alt="merchandise">
-                <a href="/">COMIC SHOP LOCATOR</a>
-            </li>
-            <li>
-                <img src="{{Vite::asset('resources/img/buy-dc-power-visa.svg')}}" alt="merchandise">
-                <a href="/">DC POWER VISA</a>
-            </li>
+            @endforeach
         </ul>
     </div>
 </footer>

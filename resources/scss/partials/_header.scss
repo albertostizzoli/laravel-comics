@@ -16,10 +16,15 @@ header {
             font-size: 15px;
             padding: 10px;
         }
+
+        a {
+            text-decoration: none;
+            color: black;
+        }
     }
 }
 
-#jumbotron{
+#jumbotron {
     background-image: url('../img/jumbotron.jpg');
     background-size: cover;
     height: 450px;
