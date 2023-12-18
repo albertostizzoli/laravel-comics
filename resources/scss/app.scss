@@ -1,6 +1,5 @@
-@use './partials/variables' as *;
 @use './partials/header' as *;
-
+@use './partials/comics-links' as *;
 
 $fa-font-path: "../webfonts" !default;
 @import "~@fortawesome/fontawesome-free/scss/fontawesome";
