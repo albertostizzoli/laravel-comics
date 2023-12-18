@@ -4,7 +4,7 @@
         <nav>
             <ul class="pt-3">
                 @foreach ($navbar as $item)
-                <li>{{$item}}</li>
+                <li><a href="/">{{$item}}</a></li>
                 @endforeach
             </ul>
         </nav>

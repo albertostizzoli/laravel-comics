@@ -14,6 +14,7 @@
     @yield('content')
     </main>
     @include('partials.comics-links')
+    @include('partials.footer')
 
 </body>
 
