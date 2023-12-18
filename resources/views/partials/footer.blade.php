@@ -58,3 +58,23 @@
         </div>
     </div>
 </div>
+<div class="bottom-footer">
+    <div class="container">
+        <a href="#" class="login">SIGN UP NOW!</a>
+        <nav>
+            <h2>FOLLOW US</h2>
+            <ul>
+                <li><<img src="{{ Vite::asset('resources/img/footer-facebook.png') }}"
+                            alt="Facebook"></li>
+                <li><<img src="{{ Vite::asset('resources/img/footer-twitter.png') }}"
+                            alt="Twitter"></li>
+                <li><<img src="{{ Vite::asset('resources/img/footer-youtube.png') }}"
+                            alt="Youtube"></li>
+                <li><<img src="{{ Vite::asset('resources/img/footer-pinterest.png') }}"
+                            alt="Pinterest"></li>
+                <li><<img src="{{ Vite::asset('resources/img/footer-periscope.png') }}"
+                            alt="Periscope"></li>
+            </ul>
+        </nav>
+    </div>
+</div>
