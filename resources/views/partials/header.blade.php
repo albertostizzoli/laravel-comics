@@ -3,9 +3,16 @@
         <img src="{{ Vite::asset('resources/img/dc-logo.png') }}" alt="Logo">
         <nav>
             <ul class="pt-3">
-                @foreach ($navbar as $item)
-                <li><a href="/">{{$item}}</a></li>
-                @endforeach
+                <li>CHARACTERS</li>
+                <li>COMICS</li>
+                <li>MOVIES</li>
+                <li>TV</li>
+                <li>GAMES</li>
+                <li>COLLECTIBLES</li>
+                <li>VIDEOS</li>
+                <li>FANS</li>
+                <li>NEWS</li>
+                <li>SHOP</li>
             </ul>
         </nav>
     </div>
