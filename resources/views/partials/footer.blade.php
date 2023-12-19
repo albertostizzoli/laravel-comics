@@ -53,8 +53,8 @@
                 </nav>
             </div>
         </div>
-        <!--<div class="footer-image">
-            <img src="{{ Vite::asset('resources/img/dc-logo-bg.png') }}" alt="Logo">-->
+        <div class="footer-image">
+            <img src="{{ Vite::asset('resources/img/dc-logo-bg.png') }}" alt="Logo">
         </div>
     </div>
 </div>

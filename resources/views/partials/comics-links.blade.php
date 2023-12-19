@@ -19,7 +19,7 @@
             </li>
             <li>
                 <img src="{{Vite::asset('resources/img/buy-dc-power-visa.svg')}}" alt="dc-power-visa">
-                <a href="/">DC POWER LISA</a>
+                <a href="/">DC POWER VISA</a>
             </li>
         </ul>
     </div>
