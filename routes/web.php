@@ -19,3 +19,14 @@ Route::get('/', function () {
     $icons = config('icons.icons');
     return view('home', compact('products','navbar', 'icons' ));
 });
+
+
+Route::get('/comic/{id}', function ($id) {
+    $comics = config('db.comics');
+    if ($id >= 0 && $id < count($comics)) {
+        $comic = $comics[$id];
+        return view('show', compact('comic'));
+    } else {
+        abort(404);
+    }
+})->name('show');

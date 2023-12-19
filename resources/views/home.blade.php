@@ -6,11 +6,11 @@
         <div class="container">
             <span class="label">CURRENT SERIES</span>
             <div class="d-flex flex-wrap pt-5">
-                @foreach ($products as $comic)
+                @foreach ($products as $key => $comic)
                     <div class="box d-flex flex-column bg-black">
                         <img src="{{ $comic['thumb'] }}" alt="{{ $comic['title'] }}">
                         <div class="title">
-                            <span>{{ $comic['title'] }}</span>
+                            <a href="{{route('show', $key)}}"><span>{{ $comic['title'] }}</span></a>
                         </div>
                     </div>
                 @endforeach
