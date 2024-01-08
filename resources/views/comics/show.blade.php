@@ -7,8 +7,8 @@
         <div class="space-blue">
             <div class="small">
                 <div class="cover">
-                    <span class="comic">{{ $comic['type'] }}</span>
-                    <img src="{{ $comic['thumb'] }}" alt="cover">
+                    <span class="comic">{{ $comic->type}}</span>
+                    <img src="{{ $comic->thumb }}" alt="cover">
                     <span class="gallery">VIEW GALLERY</span>
                 </div>
             </div>
@@ -17,11 +17,11 @@
             <div class="container">
                 <div class="row my-5">
                     <div class="col-8">
-                        <h2><strong>{{ $comic['title'] }}</strong></h2>
+                        <h2><strong>{{ $comic->title }}</strong></h2>
                         <div class="d-flex green">
                             <div class="col-9 d-flex justify-content-between align-items center">
                                 <div class="col-auto">
-                                    <span><strong>U.S. Price: </strong>{{ $comic['price'] }}</span>
+                                    <span><strong>U.S. Price: </strong>{{ $comic->price }}</span>
                                 </div>
                                 <div class="col-auto">
                                     <span>AVAILABLE</span>
@@ -31,7 +31,7 @@
                                 <span>CHECK</span>
                             </div>
                         </div>
-                        <p>{{ $comic['description'] }}</p>
+                        <p>{{ $comic->description }}</p>
                     </div>
                     <div class="col-4 text-end">
                         <span>ADVERTISEMENT</span>
@@ -54,15 +54,15 @@
                         <tbody>
                             <tr>
                                 <td class="w-25"><strong>Series:</strong></td>
-                                <td><a href="#">{{ $comic['series'] }}</a></td>
+                                <td><a href="#">{{ $comic->series }}</a></td>
                             </tr>
                             <tr>
                                 <td class="w-25"><strong>U.S. Price:</strong></td>
-                                <td>{{ $comic['price'] }}</td>
+                                <td>{{ $comic->price }}</td>
                             </tr>
                             <tr>
                                 <td class="w-25"><strong>On Sale Date:</strong></td>
-                                <td>{{ $comic['sale_date'] }}</td>
+                                <td>{{ $comic->sale_date }}</td>
                             </tr>
                         </tbody>
                     </table>
